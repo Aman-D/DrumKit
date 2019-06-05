@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	background-color: grey;
+	background: url(party.jpg);
+	background-size: contain;
+}
+
+.key{
+	height: 90px;
+	width: 90px;
+	background-color: black;
+	margin: 10px;
+	border-radius: 10%;
+	background-color:rgba(56,57,59,0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	box-shadow: 0 0 2px 5px rgba(0,0,0,0.5);
+	color:white;
+	transition: all 0.09s;
+}
+.effect{
+	transform: scale(1.02);
+	border:4px solid yellow;
+	color: yellow;
+}
